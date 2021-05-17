@@ -1,0 +1,127 @@
+        * {
+            margin: 0px;
+            ;
+            padding: 0px;
+        }
+        /* header */
+        
+        .header {
+            height: 50px;
+            /* background-color: blue; */
+        }
+        
+        .logo {
+            width: 10%;
+            height: 50px;
+            /* background-color: red; */
+            margin-left: 10%;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            line-height: 50px;
+            color: rgb(218, 78, 183);
+        }
+        /* navigator */
+        
+        .navigator {
+            width: 30%;
+            height: 50px;
+            /* background-color: aqua; */
+            margin-left: 40%;
+            display: inline-block;
+        }
+        
+        .navi {
+            list-style: none;
+            font-size: 0px;
+        }
+        
+        .navi>li {
+            display: inline-block;
+            height: 50px;
+            /* background-color: brown; */
+            font-size: 15px;
+            width: 33.33%;
+            text-align: center;
+            line-height: 50px;
+        }
+        /* banner css */
+        
+        .banner {
+            height: 400px;
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .banner_img7 {
+            overflow: hidden;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 50px;
+            background-color: beige;
+        }
+        
+        .cosmetics {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(145, 145, 104);
+        }
+        
+        .cosmetics_parent {
+            width: 80%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10%;
+            /* background-color: beige; */
+        }
+        
+        .cosmetic {
+            width: 20%;
+            /* background-color: blue; */
+            display: inline-block;
+            margin-left: 20%;
+            margin-top: 30px;
+            /* border-style: 10px; */
+        }
+        
+        .cos_img {
+            height: 200px;
+            /* background-color: rgb(255, 0, 0); */
+            overflow: hidden;
+        }
+        
+        .cos_img>img {
+            width: 100%;
+        }
+        
+        .cosmetic_details {
+            font-family: calibri;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: lightgray;
+        }
+        
+        .cosmetic_details>h2 {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        .cosmetic_details>p {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        .cosmetic_details button {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 10px;
+            background-color: peru;
+            /* border: 0px; */
+        }
